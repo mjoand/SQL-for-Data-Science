@@ -1,3 +1,9 @@
 ## Preamble
 All of the questions in this quiz pull from the open source Chinook Database. Please refer to the ER Diagram below and 
 familiarize yourself with the table and column names to write accurate queries and get the appropriate answers. 
+
+Question 1: How many albuns does the artist Led Zepelin have?
+Question 2: Create a list of album titles and the unit prices for the artist "Audioslave".How many records are returned?           
+Question 3:
+Question 4:
+Question 5:
