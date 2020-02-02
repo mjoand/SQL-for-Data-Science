@@ -1,0 +1,11 @@
+SELECT UnitPrice
+       ,(SELECT Title FROM albums WHERE albums.AlbumId=tracks.AlbumId) AS Title
+FROM tracks
+WHERE AlbumId in (SELECT AlbumId 
+                  FROM albums
+                  WHERE ArtistId IN
+                       (SELECT ArtistId
+                        FROM artists
+                        WHERE Name='Audioslave')
+                  )
+                        ;
