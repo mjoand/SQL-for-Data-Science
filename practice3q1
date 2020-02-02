@@ -1,6 +1,0 @@
-SELECT COUNT(AlbumId) AS n_album
-FROM albums
-WHERE ArtistId IN (
-     SELECT ArtistId
-     FROM artists
-     WHERE Name='Led Zeppelin');
